@@ -1,0 +1,81 @@
+.Payrolls
+{
+    /* flex: 4; */
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-left: 1%;
+}
+.payrolls-form{
+    margin-top: 5%;
+}
+.employee-name{
+    width: 20px;
+    display: inline;
+}
+#name{
+    /* background: red; */
+    width: 368px;
+    padding: 12px;
+    color: grey;
+    margin: 0px 53px 27px 92px;
+    display: inline;
+}
+
+.employee-role{
+    display: inline;
+}
+#role{
+    width: 15%;
+    padding: 15px;
+    color: grey;
+    margin-left: 28px;
+    border: none;
+    background: #ddd7d796;
+}
+.leave-status{
+    display: inline;
+}
+#status{
+    width: 15%;
+    padding: 15px;
+    color: grey;
+    margin-left: 28px;
+    border: none;
+    background: #ddd7d796;
+}
+.from{
+    display: inline;
+}
+#from{
+    width: 15%;
+    padding: 15px;
+    color: grey;
+    margin-left: 28px;
+    border: none;
+    background: #ddd7d796;
+}
+.to{
+    display:inline;
+}
+#to {
+    width: 15%;
+    padding: 15px;
+    color: grey;
+    margin-left: 28px;
+    border: none;
+    background: #ddd7d796;
+    margin: 20px 60px 19px 93px;
+}
+.search
+{
+    display: inline;
+}
+/* salary slip */
+
+.salaryslip{
+    width: 80%;
+    margin-left: 20%;
+    margin-top: 10%;
+    padding-left: 1%;
+}
