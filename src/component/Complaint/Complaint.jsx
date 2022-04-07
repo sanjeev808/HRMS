@@ -92,7 +92,7 @@ export default function Complaint() {
                                 <td>{item.position}</td>
                                 <td>{item.complaintRelated}</td>
 
-                                <td><NavLink to={`/complaint/View_detail/complaint_detail/${item.id}`} ><button className="btn btn1 "><img src={view} alt="" /> </button></NavLink></td>
+                                <td><NavLink to={`/complaint/View_detail/complaint_detail/${item.id}`} ><button className="btn btn2 "><img src={view} alt="" /> </button></NavLink></td>
 
                             </tr>)
                         })}

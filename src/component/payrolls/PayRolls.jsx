@@ -6,11 +6,8 @@ import { NavLink } from "react-router-dom";
 export default function PayRolls() {
     const [user, setgetUser] = useState([])
     const [query, setQuery] = useState("")
-
-
-
     useEffect(() => {
-        loadData()
+        loadData();
     }, [0])
 
     const loadData = () => {
