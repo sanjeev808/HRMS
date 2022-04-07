@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap");
+
+:root {
+  --primary: linear-gradient(to right, #1c92d2, #f2fcfe);
+}
+input[type="text"],
+textarea[type="text-area"],
+input[type="email"] {
+  width: 80%;
+  padding: 15px 15px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+}
+label {
+  margin-left: 40px;
+  margin-top: 100px;
+}
+input:focus,
+textarea:focus {
+  border: 1px solid #1c92d2;
+}
+
+/* Set a style for all buttons */
+/* .btn1{
+  display: flex;
+} */
+.facebook-btn button{
+  /* width: 100px; */
+  /* height: 100px; */
+  border: transparent;
+  width: 83.99%;
+
+}
+.Social-meadia-buttons{
+ margin-left: 40px;
+}
+.btn1 button {
+  background-color: #0077b5;
+  color: white;
+  padding: 5px 10px;
+  margin: 8px auto;
+  border: none;
+  cursor: pointer;
+   width: 70.5%;
+   margin-left:27px;
+   /*height: 50px; */
+  /* border-radius: 20px; */
+}
+
+.Form-container {
+  width: 450px;
+  height: 530px;
+  margin: 45px auto;
+  border: 1px solid #f2f2f2;
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: 140px;
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 120px;
+  border-radius: 50%;
+}
+
+.container {
+  width: 100%;
+}
+
+.feild-container {
+  /* padding: 5px 0px; */
+  width: 100%;
+  margin: 0 auto;
+  margin-top:-100px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+}
+
+.button {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  /* padding: 20px 0px;*/
+} 
