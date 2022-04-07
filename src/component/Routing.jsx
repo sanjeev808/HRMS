@@ -11,6 +11,7 @@ import EmployeeDocument from "./EmployeeDocument/EmployeeDocument.jsx";
 import Complaint from "./Complaint/Complaint.jsx";
 import Events from "./Event/Events.jsx";
 import NewHiring from "./NewHiring/NewHiring.jsx";
+import ViewComplaintDetail from "./Complaint/ViewComplaintDetail.jsx";
 
 
 export default function Routing() {
@@ -23,13 +24,15 @@ export default function Routing() {
         <div style={{ display: "flex" }}>
           <SideBar />
           <Routes>
-            <Route path="/home" element={<Content />} />
+            <Route path="/" element={<Content />} />
             <Route path="/hr-attendance" element={<Attendance />} />
             <Route path="/hr-employeedocument" element={<EmployeeDocument />} /> 
             <Route path="/hr-payrolls" element={<PayRolls />} />
             <Route path="/payrolls/salaryslip" element={<SalarySlip />} />
             <Route path="/payrolls/salaryslip/generate" element={<SalarySlip />} />
             <Route path="/hr-complaint" element={<Complaint />} />
+            {/* <Route path="/complaint/View_detail" element={<ViewComplaintDetail />} /> */}
+            <Route path="/complaint/View_detail/complaint_detail/:id" element={<ViewComplaintDetail />} />
             <Route path="/hr-events" element={<Events />} />
             <Route path="/hr-hiring" element={<NewHiring />} />
 
