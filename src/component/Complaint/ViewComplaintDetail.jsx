@@ -46,7 +46,8 @@ function View() {
     <div className='employee-complaint'>
         <ul className=' view-order ' >
        <li className='employee-id'><span> ID:</span> {user.id}</li>
-        <li className='employee-id ccc5c5' > Name: {user.name}</li>
+        <li className='employee-id ccc5c5' > Name: {user.name}</li> 
+        
        <li className='employee-id'> Email: {user.email}</li>
        <li className='employee-id ccc5c5'> Complaint type: {user.complaintRelated}</li>
        <li className='employee-id'> complaint description: {user.complaintDetail}</li>
