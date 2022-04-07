@@ -5,18 +5,18 @@ import { NavLink } from "react-router-dom";
 
 export default function PayRolls() {
     const [user, setgetUser] = useState([])
-     const [data, setData] = useState([]);
+    //  const [data, setData] = useState([]);
 
     const [query, setQuery] = useState("")
     // const [searchedCountry, setSearchedCountry] = useState('');
 
-    const [selected, setSelected] = useState("");
+    // const [selected, setSelected] = useState("");
     // const [region, setRegion] = useState('');
 
 
 
     useEffect(() => {
-        loadData()
+        loadData();
     }, [0])
 
     const loadData = () => {
@@ -34,12 +34,12 @@ export default function PayRolls() {
     //     // .catch(err) =>{console.log("error")}
     // }
    
-   const handleFilter = (e) =>{
-      var values=(e.target.value);  
-          console.log(values);
-   }
+//    const handleFilter = (e) =>{
+//       var values=(e.target.value);  
+//           console.log(values);
+//    }
    const filterData = user.filter((val) => {
-    if (query == "") {
+    if (query === "") {
         return val
     } 
     else if (val.name.toLowerCase().includes(query.toLowerCase())) {
