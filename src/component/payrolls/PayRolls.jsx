@@ -5,16 +5,7 @@ import { NavLink } from "react-router-dom";
 
 export default function PayRolls() {
     const [user, setgetUser] = useState([])
-    //  const [data, setData] = useState([]);
-
     const [query, setQuery] = useState("")
-    // const [searchedCountry, setSearchedCountry] = useState('');
-
-    // const [selected, setSelected] = useState("");
-    // const [region, setRegion] = useState('');
-
-
-
     useEffect(() => {
         loadData();
     }, [0])
@@ -33,34 +24,19 @@ export default function PayRolls() {
     //     })
     //     // .catch(err) =>{console.log("error")}
     // }
-   
-//    const handleFilter = (e) =>{
-//       var values=(e.target.value);  
-//           console.log(values);
-//    }
-   const filterData = user.filter((val) => {
-    if (query === "") {
-        return val
-    } 
-    else if (val.name.toLowerCase().includes(query.toLowerCase())) {
-        // console.log(val)
-        return val
-    
+    const filterData = user.filter((val) => {
+        if (query == "") {
+            return val
+        }
+        else if (val.name.toLowerCase().includes(query.toLowerCase())) {
+            // console.log(val)
+            return val
 
-    }
-    // else if (val.selected == "all")
-    // {
-    //     return val;
-    // }
-    // else if (val.selected == "employee")
-    // {
-    //     return val;
-    // }
-});
 
-// const filterData1 = user.filter((val) => {
- 
-// });
+        }
+
+    });
+
     return (
         <div className="Payrolls">
             <div className="employee">
@@ -95,7 +71,7 @@ export default function PayRolls() {
                     <input type="date" id="to" name="tosalaray" />
                 </div> */}
                 <div className="search">
-                    <button className="btn btn-info" style={{ width:118,padding: 12}}>Search</button>
+                    <button className="btn btn-info" style={{ width: 118, padding: 12 }}>Search</button>
                 </div>
             </form>
             <table className="table" id="myTable">
@@ -126,7 +102,7 @@ export default function PayRolls() {
                                 <td>{item.role}</td>
                                 <td>{item.salary}</td>
                                 <td>{item.position}</td>
-                              
+
                                 <td><NavLink to="/payrolls/salaryslip/generate" ><button className="btn btn-info">Genertor Slip </button></NavLink></td>
 
                             </tr>)
