@@ -1,6 +1,11 @@
 .event{
     width: 100%;
     background: yellow;
-    margin-top: 6%;
+    margin-top: 20%;
     margin-left: 20%;
+}
+.main-container{
+    width: 100%;
+    height: 50%;
+    margin:9% 18% 20% 28%;
 }
