@@ -12,7 +12,7 @@ export default function DashBoard() {
       <nav className="navbar navbar-expand-lg navbar-light bg-white d-flex justify-between">
        
         <div className="container-fluid">
-        <NavLink to="/home"> <img className='w-10 ms-5 logo' src={cloud} alt="" /></NavLink>
+        <NavLink to="/"> <img className='w-10 ms-5 logo' src={cloud} alt="" /></NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon three" />
           </button>

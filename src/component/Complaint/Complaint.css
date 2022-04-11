@@ -1,6 +1,42 @@
 .complaint{
     width: 100%;
-    background: yellow;
+    /* background: yellow; */
     margin-top: 6%;
     margin-left: 20%;
+}
+.employee-complaint{
+    width: 100%;
+    /* background: yellow; */
+    margin-top: 6%;
+    margin-left: 20%;
+}
+.btn2{
+    width: 22px;
+    text-align: center;
+}
+.btn2 img{
+    width: 26px;
+    margin-left: 29px;
+}
+.view-order{
+    /* background-color: pink; */
+    width: 80%;
+   
+    align-items: center;
+    
+    justify-content: center;
+    margin: 117px 116px auto;
+    padding: 50px;
+}
+.view-order li 
+{
+    list-style: none;
+}
+.employee-id {
+    font-size: 28px;
+    font-weight:500;
+    text-decoration: none;
+}
+.ccc5c5{
+    background-color:#ccc5c5
 }
