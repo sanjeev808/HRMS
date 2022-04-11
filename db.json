@@ -1,6 +1,13 @@
 {
   "users": [
     {
+<<<<<<< HEAD
+      "id": 4124,
+      "name": "Bhoopat Mehra",
+      "email": "mehra_bhoopat@bartell-brakus.io",
+      "status": "Swift",
+      "CTC": "9LPA"
+=======
       "id": 4146,
       "name": "1Tanya Varrier12233",
       "email": "tanya_varrier@bergnaum.orgf",
@@ -87,37 +94,31 @@
       "complaintRelated" :"salary",
       "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
 
+
     },
     {
       "id": 4123,
       "name": "Ekaksh Mehrotra",
       "email": "mehrotra_ekaksh@leannon.net",
-      "gender": "male",
-      "role": "Fluttor",
-      "joinDate":"25-7-2022",
-      "salary":20000,
-      "position":"manager",
-      "complaintRelated" :"leader",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur "
-
+      "status": "Fluttor",
+      "CTC": "4LPA",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "19-09-2022",
+      "documents": "10th,12th&B.tech"
     },
     {
       "id": 4122,
       "name": "Avadhesh Dutta PhD",
       "email": "avadhesh_dutta_phd@gerhold.info",
-      "gender": "male",
-      "role": "NodeJS",
-      "joinDate":"22-10-2014",
-      "salary":25000,
-      "position":"employee",
-      "complaintRelated" :"software",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-
+      "status": "NodeJS"
     },
     {
       "id": 4121,
       "name": "Bhardwaj Bhattathiri",
       "email": "bhardwaj_bhattathiri@gislason-ullrich.net",
+
+      "status": "Angular",
+
       "gender": "female",
       "role": "Angular",
       "joinDate":"10-12-2010",
@@ -131,30 +132,29 @@
       "id": 4120,
       "name": "Bhoopati Deshpande",
       "email": "bhoopati_deshpande@connelly-muller.co",
+
+      "status": "VUEJS",
+
       "gender": "female",
       "role": "VUEJS",
       "joinDate":"20-3-2015",
       "position":"employee",
       "salary":36000,
-      "complaintRelated" :"team leader",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
+      "complaintRelated" :"team leader" 
+
     },
     {
       "id": 4119,
       "name": "Rita Sethi",
       "email": "sethi_rita@turner-ernser.io",
-      "gender": "male",
-      "role": "Digital Marketing",
-      "joinDate":"2-5-2005",
-      "salary":12200,
-      "position":"manager",
-      "complaintRelated" :"manager",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Di"
+      "status": "Digital Marketing"
     },
     {
       "id": 4118,
       "name": "Anal Chopra",
       "email": "chopra_anal@oconnell.biz",
+
+      "status": "Machine Learning",
       "gender": "female",
       "role": "Machine Learning",
       "joinDate":"12-1-2015",
@@ -168,19 +168,13 @@
       "id": 4117,
       "name": "Govinda Saini",
       "email": "saini_govinda@kassulke.io",
-      "gender": "female",
-      "role": "Deep Learning",
-      "joinDate":"12-5-2020",
-      "salary":20000,
-      "position":"manager",
-      "complaintRelated" :"Salary",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-
+      "status": "Deep Learning"
     },
     {
       "id": 4116,
       "name": "Divjot Gupta",
       "email": "gupta_divjot@lind.com",
+      "status": "C#",
       "gender": "male",
       "role": "C#",
       "joinDate":"2-12-2010",
@@ -194,13 +188,65 @@
       "id": 4115,
       "name": "Kamala Mehra",
       "email": "mehra_kamala@schuster-herzog.io",
-      "gender": "male",
-      "role": "Unity",
-      "joinDate":"12-5-2001",
-      "salary":15000,
-      "position":"manager",
-      "complaintRelated" :"IT",
-      "complaintDetail":"Lorem ipsum dolor sit amet consectetur adipisicit"
+      "status": "Unity"
+    },
+    {
+      "name": "SHIVANSHU",
+      "email": "shivanshusingh216@gmail.com",
+      "status": "Reactjs",
+      "id": 4147,
+      "CTC": "5LPA"
+    },
+    {
+      "name": "Tanya Varrier1",
+      "email": "Ajeet@gmail.com",
+      "status": "Andriod",
+      "id": 4149
+    },
+    {
+      "name": "Ankit",
+      "email": "Himanshu@gmail.com",
+      "status": "Status",
+      "id": 4150,
+      "CTC": "5LPA"
+    },
+    {
+      "name": "ishu",
+      "email": "tanya_varrier@bergnaum.orgf",
+      "status": "Status",
+      "id": 4151,
+      "CTC": "2.5LPA"
+    },
+    {
+      "name": "sanjeev",
+      "email": "sanjeev1@gmail.com",
+      "status": "reactjs",
+      "id": 4152,
+      "CTC": "2.4LPA"
+    },
+    {
+      "name": "Ananaya",
+      "email": "Ananaya@ggi.ac.in",
+      "status": "Blockchain",
+      "id": 4153,
+      "CTC": "4LPA"
+    },
+    {
+      "name": "Anmol",
+      "email": "Ars@gmail.com",
+      "status": "Angular",
+      "id": 4154,
+      "CTC": "3LPA"
+    },
+    {
+      "name": "Ajeet kumar",
+      "email": "Ajeet@gmail.com",
+      "status": "Reactjs",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "19-09-2022",
+      "id": 4156,
+      "CTC": "5LPA",
+      "documents": "10th,12th&B.tech"
     }
   ]
 }

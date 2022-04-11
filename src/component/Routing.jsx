@@ -7,11 +7,20 @@ import Attendance from './Attendance/Attendance.jsx';
 import PayRolls from "./payrolls/PayRolls.jsx";
 // import PayRolls  from './payRolls/PayRolls.jsx';
 import SalarySlip from "./payrolls/SalarySlip.jsx";
-import EmployeeDocument from "./EmployeeDocument/EmployeeDocument.jsx";
+// import EmployeeDocument from "./EmployeeDocument/AddUsers.jsx";
 import Complaint from "./Complaint/Complaint.jsx";
 import Events from "./Event/Events.jsx";
 import NewHiring from "./NewHiring/NewHiring.jsx";
+// HEAD
+import NavBars from "./EmployeeDocument/Navbars.jsx";
+import AddUsers from "./EmployeeDocument/AddUsers.jsx";
+import Update from "./EmployeeDocument/Update.jsx";
+import AllUsers from "./EmployeeDocument/AllUsers.jsx"
+import View from "./EmployeeDocument/View"
+
+
 import ViewComplaintDetail from "./Complaint/ViewComplaintDetail.jsx";
+
 
 
 export default function Routing() {
@@ -26,7 +35,12 @@ export default function Routing() {
           <Routes>
             <Route path="/" element={<Content />} />
             <Route path="/hr-attendance" element={<Attendance />} />
-            <Route path="/hr-employeedocument" element={<EmployeeDocument />} /> 
+            <>
+            <Route path="/hr-employeedocument/view/:id" element={<View/>}/>
+            <Route path="/hr-employeedocument" element={<AllUsers />}/>
+            <Route path="/hr-employeedocument/add" element={<AddUsers />}/>
+            <Route path="/hr-employeedocument/edit/:id" element={<Update/>}/>
+            </>
             <Route path="/hr-payrolls" element={<PayRolls />} />
             <Route path="/payrolls/salaryslip" element={<SalarySlip />} />
             <Route path="/payrolls/salaryslip/generate" element={<SalarySlip />} />
@@ -35,6 +49,7 @@ export default function Routing() {
             <Route path="/complaint/View_detail/complaint_detail/:id" element={<ViewComplaintDetail />} />
             <Route path="/hr-events" element={<Events />} />
             <Route path="/hr-hiring" element={<NewHiring />} />
+            
 
 
           </Routes>
