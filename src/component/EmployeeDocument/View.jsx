@@ -45,7 +45,7 @@ function View() {
     <div  style={{marginTop: "8rem"}} >
       <h1>User Id: {id}</h1>
       
-      <div style={{marginLeft: "35rem",width:"40rem"}}>
+      <div style={{marginLeft: "30rem",width:"30rem",textAlign: "center"}}>
       <ul className="">
       <li className="list-item"> ID: {user.id}</li>
         <li className="list-item"> Name: {user.name}</li>
@@ -64,7 +64,7 @@ function View() {
 
  <br></br>
     <>
-    <button style={{marginLeft:"-32rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"34rem",height:"2rem"}} onClick={() => navigate(-1)}>Back</button>
+    <button style={{marginLeft:"-16rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"34rem",height:"2rem"}} onClick={() => navigate(-1)}>Back</button>
     </>
      
      </>
