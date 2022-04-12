@@ -1,7 +1,6 @@
 import "../EmployeeDocument/EmployeeDocument.css";
 import {addUser} from '../EmployeeDocument/Service/api';
 import {useNavigate} from 'react-router-dom';
-import{FormGroup,FormControl,Input,InputLabel,Button,makeStyles,Typography} from "@material-ui/core";
 import React,{useState} from 'react'
 
 
@@ -32,7 +31,7 @@ function AddUsers() {
 
   return (
 <>
-    <form className="form"> <h1 className="head">Add Users</h1><br/>
+<form className="form"> <h1 className="head">Add Users</h1><br/>
   <div className="form-group">
     <input type="text"
      className="form-control" 
