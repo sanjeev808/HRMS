@@ -139,7 +139,7 @@ function EditUsers() {
   onClick={() => editUserDetails()}>Submit</button>
 </form>
 
-<button className={classes.back}   onClick={() => navigate(-1.5)}>Back</button>
+<button className={classes.back}   onClick={() => navigate()}>Back</button>
 
     </>
     

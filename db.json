@@ -306,6 +306,40 @@
       "joining_date": "05-03-2022",
       "appraisal_date": "19-09-2022",
       "id": 4166
+    },
+    {
+      "name": "ishu singh",
+      "email": "shivanshusingh216@gmail.com",
+      "status": "Wordpress",
+      "joining_date": "03-03-2022",
+      "appraisal_date": "19-09-2022",
+      "id": 4167
+    },
+    {
+      "name": "Ajeet kumar",
+      "email": "Ajeet@gmail.com",
+      "status": "inactive",
+      "joining_date": "03-03-2022",
+      "appraisal_date": "08-09-2022",
+      "id": 4168
+    },
+    {
+      "name": "Ankit",
+      "email": "shivanshusingh216@gmail.com",
+      "status": "active",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "19-09-2022",
+      "id": 4169
+    },
+    {
+      "name": "Ajeet kumar",
+      "email": "shivanshusingh216@gmail.com",
+      "status": "active",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "09-09-2022",
+      "id": 4170,
+      "CTC": "5LPA",
+      "documents": "10th,12th&B.tech"
     }
   ]
 }

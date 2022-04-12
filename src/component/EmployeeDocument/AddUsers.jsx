@@ -78,7 +78,7 @@ function AddUsers() {
   onClick={() => addUserDetails()}>Submit</button>
 </form>
 
-<button style={{marginLeft:"-3rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"6rem",height:"2rem"}} onClick={() => navigate(-2)}>Back</button>
+<button style={{marginLeft:"-3rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"6rem",height:"2rem"}} onClick={() => navigate(-1.5)}>Back</button>
 
 </>
 
