@@ -76,41 +76,70 @@ function EditUsers() {
 
   return (
     <>
-    <FormGroup className={classes.container} >
-      <Typography variant="h3">Update Users</Typography>
-     <FormControl>
-        <InputLabel>Name</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='name' value={name}/>
-     </FormControl>
-      <FormControl>
-        <InputLabel>Email</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='email' value={email} />
-      </FormControl>
-      <FormControl>
-        <InputLabel>Team</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='status' value={status} />
-      </FormControl>
-      <FormControl>
-        <InputLabel>Package</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='CTC' value={CTC} />
-      </FormControl>
-      <FormControl>
-        <InputLabel>Joining Date</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='joining_date' value={joining_date} />
-      </FormControl>
-      <FormControl>
-        <InputLabel>Appraisal Date</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='appraisal_date' value={appraisal_date} />
-      </FormControl>
-      <FormControl>
-        <InputLabel>Documents</InputLabel>
-        <Input onChange={(e)=> onValueChange(e)} name='documents' value={documents} />
-      </FormControl>
-     <Button variant="contained" className={classes.btn} onClick={() => editUserDetails()} > Submit</Button>
-   
-    </FormGroup>
 
-    <button className={classes.back}   onClick={() => navigate(-1)}>Back</button>
+<form className="form"> <h1 className="head">Add Users</h1><br/>
+  <div className="form-group">
+    <input type="text"
+     className="form-control" 
+     placeholder="Enter Name"
+     onChange={(e)=> onValueChange(e)} 
+     name='name'
+      value={name}
+     />
+  </div> <br/>
+  <div className="form-group">
+    <input type="email" 
+    className="form-control" 
+    placeholder="Enter Email"
+    onChange={(e)=> onValueChange(e)} 
+    name='email' value={email}
+    />
+  </div> <br/>
+  <div className="form-group">
+    <input type="text" 
+    className="form-control"
+     placeholder="Technology"
+     onChange={(e)=> onValueChange(e)}
+      name='status' value={status}
+     />
+  </div> <br/>
+  <div className="form-group">
+    <input type="text" 
+    className="form-control"
+     placeholder="CTC"
+     onChange={(e)=> onValueChange(e)}
+      name='CTC' value={CTC}
+     />
+  </div> <br/>
+  <div className="form-group">
+    <input type="text" 
+    className="form-control"
+     placeholder="Joining Date"
+     onChange={(e)=> onValueChange(e)} 
+     name='joining_date' value={joining_date}
+     />
+  </div> <br/>
+  <div className="form-group">
+    <input type="text"
+     className="form-control"
+      placeholder="Appraisal Date"
+      onChange={(e)=> onValueChange(e)} 
+      name='appraisal_date' value={appraisal_date}/>
+  </div><br/>
+  <div className="form-group">
+    <input type="text" 
+    className="form-control"
+     placeholder="Documents"
+     onChange={(e)=> onValueChange(e)}
+      name='documents' value={documents}
+     />
+  </div> <br/>
+  <button type="submit" 
+  className="submit"
+  onClick={() => editUserDetails()}>Submit</button>
+</form>
+
+<button className={classes.back}   onClick={() => navigate()}>Back</button>
 
     </>
     

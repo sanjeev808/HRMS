@@ -137,7 +137,7 @@ const AllUsers = (user) => {
                 </NavLink>
                 <NavLink to={`/hr-employeedocument/View/${user.id}`}><button
                   type="button"
-                 className="btn btn-info"
+                 className="btn btn-warning"
                 >
                   View
                 </button>
