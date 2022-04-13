@@ -17,6 +17,7 @@ import AddUsers from "./EmployeeDocument/AddUsers.jsx";
 import Update from "./EmployeeDocument/Update.jsx";
 import AllUsers from "./EmployeeDocument/AllUsers.jsx"
 import View from "./EmployeeDocument/View"
+import  Notfound from "./EmployeeDocument/Notfound.jsx"
 
 
 import ViewComplaintDetail from "./Complaint/ViewComplaintDetail.jsx";
@@ -33,7 +34,7 @@ export default function Routing() {
         <div style={{ display: "flex" }}>
           <SideBar />
           <Routes>
-            <Route path="/" element={<Content />} />
+            <Route exact path="/" element={<Content />} />
             <Route path="/hr-attendance" element={<Attendance />} />
             <>
             <Route path="/hr-employeedocument/view/:id" element={<View/>}/>
@@ -49,6 +50,7 @@ export default function Routing() {
             <Route path="/complaint/View_detail/complaint_detail/:id" element={<ViewComplaintDetail />} />
             <Route path="/hr-events" element={<Events />} />
             <Route path="/hr-hiring" element={<NewHiring />} />
+            <Route  element = {<Notfound/>} />
             
 
 

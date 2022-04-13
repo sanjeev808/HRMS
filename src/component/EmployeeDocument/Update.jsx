@@ -44,6 +44,7 @@ const initialValues = {
   joining_date:'',
   appraisal_date:'',
   documents:'',
+
 }
 
 function EditUsers() {
@@ -70,7 +71,7 @@ function EditUsers() {
 
   const editUserDetails =async () => {
     await editUser(id, user);
-    navigate(-1);
+    navigate(-1.5);
   }
 
 
@@ -139,7 +140,7 @@ function EditUsers() {
   onClick={() => editUserDetails()}>Submit</button>
 </form>
 
-<button className={classes.back}   onClick={() => navigate()}>Back</button>
+<button className={classes.back}   onClick={() => navigate(-1)}>Back</button>
 
     </>
     

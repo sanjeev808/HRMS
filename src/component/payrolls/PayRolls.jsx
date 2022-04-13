@@ -98,9 +98,9 @@ export default function PayRolls() {
                                 <td>{item.name}</td>
                                 <td>{item.id}</td>
                                 <td>{item.email}</td>
-                                <td>{item.joinDate}</td>
-                                <td>{item.role}</td>
-                                <td>{item.salary}</td>
+                                <td>{item.joining_date}</td>
+                                <td>{item.status}</td>
+                                <td>{item.CTC}</td>
                                 <td>{item.position}</td>
 
                                 <td><NavLink to="/payrolls/salaryslip/generate" ><button className="btn btn-info">Genertor Slip </button></NavLink></td>

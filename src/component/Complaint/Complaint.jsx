@@ -88,7 +88,7 @@ export default function Complaint() {
                             return (<tr key={index} >
                                 <td>{item.id}</td>
                                 <td>{item.name}</td>
-                                <td>{item.role}</td>
+                                <td>{item.status}</td>
                                 <td>{item.position}</td>
                                 <td>{item.complaintRelated}</td>
 
