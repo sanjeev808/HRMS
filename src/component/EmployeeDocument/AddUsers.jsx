@@ -11,11 +11,12 @@ const initialValues = {
   status:'',
   joining_date:'',
   appraisal_date:'',
+  position:'',
 }
 
 function AddUsers() {
   const [user, setUser] = useState(initialValues);
-  const {name,email,status,joining_date, appraisal_date} = user;
+  const {name,email,status,joining_date, appraisal_date,position} = user;
    const navigate = useNavigate();
 
   const onValueChange = (e) => {
@@ -55,6 +56,14 @@ function AddUsers() {
      placeholder="Technology"
      onChange={(e)=> onValueChange(e)}
       name='status' value={status}
+     />
+  </div> <br/>
+  <div className="form-group">
+    <input type="text" 
+    className="form-control"
+     placeholder="Position"
+     onChange={(e)=> onValueChange(e)}
+      name='position' value={position}
      />
   </div> <br/>
   <div className="form-group">

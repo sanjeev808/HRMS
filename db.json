@@ -1,344 +1,58 @@
 {
   "users": [
     {
-      "id": 4124,
-      "name": "Bhoopat Mehra",
-      "email": "mehra_bhoopat@bartell-brakus.io",
-      "status": "Swift",
-      "CTC": "8LPA",
-      "joining_date": "05-03-2022",
-      "appraisal_date": "09-09-2022",
-      "documents": "10th,12th&B.tech"
-    },
-    {
-      "id": 4146,
-      "name": "1Tanya Varrier12233",
-      "email": "tanya_varrier@bergnaum.orgf",
-      "employee_id": 12,
-      "gender": "female1",
-      "role": "Laravel",
-      "joinDate": "12-1-2015",
-      "salary": 12000,
-      "position": "employee",
-      "complaintRelated": "Departmant",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-    },
-    {
-      "id": 4144,
-      "name": "Vishnu Nambeesan",
-      "email": "nambeesan_vishnu@flatley.io",
-      "gender": "female",
-      "role": "C++",
-      "joinDate": "12-5-2017",
-      "salary": 10000,
-      "position": "manager",
-      "complaintRelated": "IT",
-      "complaintDetail": "Lorem ipsum dolor sit amet  Dicta, reprehenderit"
-    },
-    {
-      "id": 4143,
-      "name": "Aaryan Trivedi Sr.",
-      "email": "trivedi_sr_aaryan@kuhlman-schmidt.biz",
-      "gender": "female",
-      "role": "Wordpress",
-      "joinDate": "15-2-2012",
-      "salary": 20000,
-      "position": "employee",
-      "complaintRelated": "software",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur  Dicta, reprehenderit"
-    },
-    {
-      "id": 4141,
-      "name": "Siddarth Chaturvedi",
-      "email": "siddarth_chaturvedi@stoltenberg.com",
-      "gender": "male",
-      "role": "Python",
-      "joinDate": "13-12-2020",
-      "position": "manager",
-      "salary": 15000,
-      "complaintRelated": "IT",
-      "complaintDetail": "Lorem  consectetur adipisicing elit. Dicta, reprehenderit"
-    },
-    {
-      "id": 4127,
-      "name": "Meghnad Mukhopadhyay",
-      "email": "mukhopadhyay_meghnad@turcotte.io",
-      "gender": "male",
-      "role": "ReactJS",
-      "joinDate": "20-10-2016",
-      "salary": 25000,
-      "position": "employee",
-      "complaintRelated": "management",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-    },
-    {
-      "id": 4126,
-      "name": "Ms. Bhadran Verma",
-      "email": "ms_verma_bhadran@altenwerth.com",
-      "gender": "female",
-      "role": "PHP",
-      "joinDate": "12-10-2017",
-      "salary": 30000,
-      "position": "manager",
-      "complaintRelated": "manger",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing"
-    },
-    {
-      "id": 4124,
-      "name": "Bhoopat Mehra",
-      "email": "mehra_bhoopat@bartell-brakus.io",
-      "gender": "male",
-      "role": "Swift",
-      "joinDate": "12-1-2022",
-      "salary": 35000,
-      "position": "employee",
-      "complaintRelated": "salary",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-    },
-    {
-      "id": 4123,
-      "name": "Ekaksh Mehrotra",
-      "email": "mehrotra_ekaksh@leannon.net",
-      "status": "Fluttor",
-      "CTC": "4LPA",
-      "joining_date": "07-02-2022",
+      "name": "Ankit",
+      "email": "Ankit@gmail.com",
+      "status": "Reactjs",
+      "joining_date": "03-03-2022",
       "appraisal_date": "19-09-2022",
+      "position": "Developer",
+      "id": 1,
+      "CTC": "8LPA",
       "documents": "10th,12th&B.tech"
     },
     {
-      "id": 4122,
-      "name": "Avadhesh Dutta PhD",
-      "email": "avadhesh_dutta_phd@gerhold.info",
-      "status": "NodeJS"
-    },
-    {
-      "id": 4121,
-      "name": "Bhardwaj Bhattathiri",
-      "email": "bhardwaj_bhattathiri@gislason-ullrich.net",
-      "status": "Angular",
-      "gender": "female",
-      "role": "Angular",
-      "joinDate": "10-12-2010",
-      "salary": 33000,
-      "position": "manager",
-      "complaintRelated": "IT",
-      "complaintDetail": "Lorem ipsum dolor sit amet . Dicta, reprehenderit"
-    },
-    {
-      "id": 4120,
-      "name": "Bhoopati Deshpande",
-      "email": "bhoopati_deshpande@connelly-muller.co",
-      "status": "VUEJS",
-      "gender": "female",
-      "role": "VUEJS",
-      "joinDate": "20-3-2015",
-      "position": "employee",
-      "salary": 36000,
-      "complaintRelated": "team leader"
-    },
-    {
-      "id": 4119,
-      "name": "Rita Sethi",
-      "email": "sethi_rita@turner-ernser.io",
-      "status": "Digital Marketing"
-    },
-    {
-      "id": 4118,
-      "name": "Anal Chopra",
-      "email": "chopra_anal@oconnell.biz",
-      "status": "Machine Learning",
-      "gender": "female",
-      "role": "Machine Learning",
-      "joinDate": "12-1-2015",
-      "salary": 30000,
-      "position": "employee",
-      "complaintRelated": "department",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit",
-      "joining_date": "08-03-2022",
-      "appraisal_date": "09-09-2022",
+      "name": "Ajeet kumar",
+      "email": "Ajeet@gmail.com",
+      "status": "Reactjs",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "08-09-2022",
+      "position": "Developer",
+      "id": 2,
       "CTC": "5LPA",
       "documents": "10th,12th&B.tech"
     },
     {
-      "id": 4117,
-      "name": "Govinda Saini",
-      "email": "saini_govinda@kassulke.io",
-      "status": "Deep Learning"
-    },
-    {
-      "id": 4116,
-      "name": "Divjot Gupta",
-      "email": "gupta_divjot@lind.com",
-      "status": "C#",
-      "gender": "male",
-      "role": "C#",
-      "joinDate": "2-12-2010",
-      "salary": 10000,
-      "position": "employee",
-      "complaintRelated": "system",
-      "complaintDetail": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, reprehenderit"
-    },
-    {
-      "id": 4115,
-      "name": "Kamala Mehra",
-      "email": "mehra_kamala@schuster-herzog.io",
-      "status": "Unity"
+      "name": "Sanjeev",
+      "email": "sanjeev1@gmail.com",
+      "status": "Vue.js",
+      "joining_date": "05-03-2022",
+      "appraisal_date": "19-09-2022",
+      "position": "Developer",
+      "id": 3,
+      "CTC": "3.4LPA",
+      "documents": "10th,12th&B.tech"
     },
     {
       "name": "SHIVANSHU",
       "email": "shivanshusingh216@gmail.com",
-      "status": "Reactjs",
-      "id": 4147,
-      "CTC": "5LPA"
-    },
-    {
-      "name": "Tanya Varrier1",
-      "email": "Ajeet@gmail.com",
-      "status": "Andriod",
-      "id": 4149
-    },
-    {
-      "name": "Ankit",
-      "email": "Himanshu@gmail.com",
-      "status": "Status",
-      "id": 4150,
-      "CTC": "5LPA"
-    },
-    {
-      "name": "ishu",
-      "email": "tanya_varrier@bergnaum.orgf",
-      "status": "Status",
-      "id": 4151,
-      "CTC": "2.5LPA"
-    },
-    {
-      "name": "sanjeev",
-      "email": "sanjeev1@gmail.com",
-      "status": "reactjs",
-      "id": 4152,
-      "CTC": "3.4LPA"
-    },
-    {
-      "name": "Ananaya",
-      "email": "Ananaya@ggi.ac.in",
-      "status": "Blockchain",
-      "id": 4153,
-      "CTC": "4LPA"
-    },
-    {
-      "name": "Anmol",
-      "email": "Ars@gmail.com",
-      "status": "Angular",
-      "id": 4154,
-      "CTC": "3LPA"
-    },
-    {
-      "name": "Ajeet kumar",
-      "email": "Ajeet@gmail.com",
-      "status": "Reactjs",
+      "status": "Wordpress",
       "joining_date": "07-02-2022",
       "appraisal_date": "19-09-2022",
-      "id": 4156,
-      "CTC": "5LPA",
+      "position": "Developer",
+      "id": 4,
+      "CTC": "3.8LPA",
       "documents": "10th,12th&B.tech"
     },
     {
-      "name": "2",
-      "email": "Ajeet@gmail.com",
-      "status": "Active",
-      "joining_date": "08-03-2022",
-      "appraisal_date": "09-09-2022",
-      "id": 4157
-    },
-    {
-      "name": "Tanya Varrier1",
-      "email": "trivedi_sr_aaryan@kuhlman-schmidt.biz",
-      "status": "inactive",
-      "joining_date": "05-03-2022",
-      "appraisal_date": "19-09-2022",
-      "id": 4158
-    },
-    {
-      "name": "Ajeet kumar",
-      "email": "Ankit@gmail.com",
-      "status": "inactive",
-      "joining_date": "08-03-2022",
-      "appraisal_date": "09",
-      "id": 4159
-    },
-    {
-      "name": "Ajeet kumar",
-      "email": "Himanshu@gmail.com",
+      "name": "MD Rehmat",
+      "email": "MD@gmail.com",
       "status": "Angular",
-      "joining_date": "03-03-2022",
-      "appraisal_date": "08-09-2022",
-      "id": 4160
-    },
-    {
-      "name": "2",
-      "email": "Himanshu@gmail.com",
-      "status": "inactive",
-      "joining_date": "08-03-2022",
-      "appraisal_date": "09-09-2022",
-      "id": 4161,
-      "CTC": "2.8LPA"
-    },
-    {
-      "name": "deepak",
-      "email": "shivanshusingh216@gmail.com",
-      "status": "active",
-      "joining_date": "05-03-2022",
-      "appraisal_date": "09-09-2022",
-      "id": 4162
-    },
-    {
-      "name": "deepak",
-      "email": "shivanshusingh216@gmail.com",
-      "status": "active",
-      "joining_date": "08-03-2022",
-      "appraisal_date": "09-09-2022",
-      "id": 4163
-    },
-    {
-      "name": "Ankit",
-      "email": "Ajeet@gmail.com",
-      "status": "active",
-      "joining_date": "05-03-2022",
-      "appraisal_date": "19-09-2022",
-      "id": 4166
-    },
-    {
-      "name": "ishu singh",
-      "email": "shivanshusingh216@gmail.com",
-      "status": "Wordpress",
-      "joining_date": "03-03-2022",
-      "appraisal_date": "19-09-2022",
-      "id": 4167
-    },
-    {
-      "name": "Ajeet kumar",
-      "email": "Ajeet@gmail.com",
-      "status": "inactive",
-      "joining_date": "03-03-2022",
-      "appraisal_date": "08-09-2022",
-      "id": 4168
-    },
-    {
-      "name": "Ankit",
-      "email": "shivanshusingh216@gmail.com",
-      "status": "active",
       "joining_date": "07-02-2022",
       "appraisal_date": "19-09-2022",
-      "id": 4169
-    },
-    {
-      "name": "Ajeet kumar",
-      "email": "shivanshusingh216@gmail.com",
-      "status": "active",
-      "joining_date": "07-02-2022",
-      "appraisal_date": "09-09-2022",
-      "id": 4170,
-      "CTC": "5LPA",
+      "position": "Developer",
+      "id": 5,
+      "CTC": "3LPA",
       "documents": "10th,12th&B.tech"
     }
   ]
