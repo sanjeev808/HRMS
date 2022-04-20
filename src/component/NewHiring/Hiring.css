@@ -3,6 +3,12 @@
 :root {
   --primary: linear-gradient(to right, #1c92d2, #f2fcfe);
 }
+.hr-hiring{
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 10%;
+  padding-left: 1%;
+}
 input[type="text"],
 textarea[type="text-area"],
 input[type="email"] {

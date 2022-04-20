@@ -17,7 +17,65 @@ export default function SideBar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitle"> DashBoard</h3>
           <ul className="sidebarList">
-            <div className="trs">
+
+          <div className="trs">
+              <div>HR Admin</div>
+            
+           < div className="ml-20">  <NavLink to="/hr-attendance">
+                <div className="d-flex align-item">
+                  <div className="attendance-img"><img src={attendance} alt="" /></div>
+                  <div>
+                    <button className="attandence setting">Attendance</button>
+                  </div>
+                </div>
+              </NavLink>
+              <NavLink to="/hr-employeedocument">
+                  <div className="d-flex align-item">
+                    <div className="attendance-img"><img src={document} alt="" /></div>
+                    <div>
+                      <button className="attandence setting">Employee Document</button>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/hr-payrolls">
+
+                  <div className="d-flex align-item">
+                    <div className="attendance-img"><img src={Employee} alt="" /></div>
+                    <div>
+                      <button className="attandence setting">PayRolls</button>
+                    </div>
+                  </div>
+
+                </NavLink>
+                <NavLink to="/hr-complaint">
+                  <div className="d-flex align-item">
+                    <div className="attendance-img"><img src={complaint} alt="" /></div>
+                    <div>
+                      <button className="attandence setting">Complaint</button>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/hr-events">
+                  <div className="d-flex align-item">
+                    <div className="attendance-img"><img src={event} alt="" /></div>
+                    <div>
+                      <button className="attandence setting">Events</button>
+                    </div>
+                  </div>
+                </NavLink>
+                <NavLink to="/hr-hiring">
+                  <div className="d-flex align-item">
+                    <div className="attendance-img"><img src={hiring} alt="" /></div>
+                    <div>
+                      <button className="attandence setting">New Hiring</button>
+                    </div>
+                  </div>
+                </NavLink>
+                </div>
+            </div>
+
+
+            {/* <div className="trs">
               <p>
                 <a className="btn admin" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                   HR Admin
@@ -86,7 +144,7 @@ export default function SideBar() {
                   </div>
                 </NavLink>
               </div>
-            </div>
+            </div> */}
           </ul>
         </div >
       </div >

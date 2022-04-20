@@ -3,7 +3,7 @@ import React, { useState } from "react";
 //import {NavLink} from 'react-router-dom'
 import Login from './Facebook'
 import LinkedInPage from "./linkedin.jsx";
-import "./Hiring.css";
+import "./linkedin.css";
 import Image from "../../img/man.jpg";
 //import axios from "axios";
 
@@ -37,8 +37,7 @@ function Hiring() {
 // }
 
   return (
-    <div>
-      
+    <div className="hr-hiring"> 
       <form>
         <div className="Form-container">
           <div className="imgcontainer">
