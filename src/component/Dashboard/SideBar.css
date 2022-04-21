@@ -16,6 +16,9 @@
 .w-20 {
   width: 20%;
 }
+.ml-20{
+  margin-left: 20px;
+}
 
 .sidebar-wrapper {
   padding: 20px;

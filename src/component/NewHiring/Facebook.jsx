@@ -12,7 +12,7 @@ export default function Login() {
   //       }
   return (
     <div className="facebook">
-      <FacebookLogin
+      <FacebookLogin className="facebook"
         appId="648908642839473"
         fields="name,email,picture"
         // onClick={componentClicked}
