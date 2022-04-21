@@ -6,6 +6,7 @@ import LinkedInPage from "./linkedin.jsx";
 import "./linkedin.css";
 import Image from "../../img/man.jpg";
 //import axios from "axios";
+// import './Hiring.css'
 
 function Hiring() {
 //   let navigate = useNavigate();
@@ -38,15 +39,15 @@ function Hiring() {
 
   return (
     <div className="hr-hiring"> 
-      <form>
-        <div className="Form-container">
+      <form className="main-hiring">
+        <div className="form-container">
           <div className="imgcontainer">
             <img src={Image} alt="Avatar" className="avatar" />
           </div>
 
           <div className="container">
             <div className="feild-container">
-            <label htmlFor="job">
+            <label htmlFor="job"className="label-name" >
               <b>Job Title</b>
             </label>
             <br></br>
@@ -55,11 +56,12 @@ function Hiring() {
               placeholder="Enter Job Tittle"
               name="Job"
               required
+              className="name"
             />
             </div>
 
            <div className="feild-container">
-           <label htmlFor="text">
+           <label htmlFor="text" className="label-description">
               <b>Description</b>
             </label>
             <br></br>
@@ -70,13 +72,14 @@ function Hiring() {
               rows="4"
               cols="50"
               required
+              className="name"
             />
 
            </div>
           <div className="Social-meadia-buttons">
-           <div className="btn1">
+           <div className="btn1" >
                 <button type="submit" >
-                <LinkedInPage/>
+                <LinkedInPage />
                   
                  </button>
                  
@@ -84,10 +87,10 @@ function Hiring() {
            </div>
            
            <div className="facebook-btn" >
-                 <button type="submit" >
-                 <Login/>
+                 {/* <button type="submit" > */}
+                 <Login className="login"/>
                
-                 </button>
+                 {/* </button> */}
                  </div>
           </div>
           </div>

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 //import Image from './linkedin.jpeg';
 import { LinkedIn } from 'react-linkedin-login-oauth2';
 // You can use provided image shipped by this package or using your own
-import "./linkedin.css";
+// import "./linkedin.css";
   export default function LinkedInPage() {
   return (
     <LinkedIn
@@ -28,7 +28,6 @@ import "./linkedin.css";
           // src={linkedin}
           
           // alt="Sign in with Linked In"
-          style={{ maxWidth: '180px', cursor: 'pointer' }}
         >Sign in with Linked In</button>
         </>
       )}
