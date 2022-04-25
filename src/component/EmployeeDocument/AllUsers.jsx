@@ -10,8 +10,8 @@ const useStyle = makeStyles({
     margin: "50px 0px 0px 0px",
   },
   allUser: {
-    width: "80%",
-    marginLeft: "20%",
+    width: "100%",
+    // marginLeft: "20%",
     marginTop: "10%",
     paddingLeft: "1%",
   },

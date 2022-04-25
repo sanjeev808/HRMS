@@ -16,27 +16,28 @@ export default function DashBoard() {
   };
   let UserName = "Sanju";
   return (
-    <div className="container" style={{ maxWidth: "100%", position: "fixed" }}>
+    <div className="container " style={{ maxWidth: "100%", position: "fixed" }}>
       <div className="row ">
-        <div className="col  bg-light d-flex align-items-center justify-content-between">
-          <NavLink to="/" className="icon w-20">
-            <img className="w-30" src={cloud} alt="" />
+        <div className="col py-3 bg-light d-flex align-items-center justify-content-between">
+          <NavLink to="/" className="icon w-20 text-decoration-none text-dark">
+            {/* <img className="w-30" src={cloud} alt="" /> */}
+            <h2 className="" >HR-Cloud</h2>
           </NavLink>
-          <div className="d-flex w-30  align-items-center fs-5">
+          <div className="d-flex  align-items-center fs-5">
             <div className="mx-4 d-flex ">
               <div className="mx-1 text-secondary  ">
-                <i class="fa fa-gear mr-5 "></i>
+                <i class="cursor-pointer fa fa-gear mr-5 "></i>
               </div>
-              <div className="text-secondary ">setting</div>
+              <div className="text-secondary cursor-pointer">setting</div>
             </div>
-            <div className="mx-4 d-flex">
+            <div className="mx-4 cursor-pointer d-flex">
               <div className="mx-1 text-secondary ">
-                <i class="mr-2 fa fa-clock-rotate-left "></i>
+                <i class="mr-2 cursor-pointer fa fa-clock-rotate-left "></i>
               </div>
-              <div className="text-secondary ">History</div>
+              <div className="text-secondary cursor-pointer">History</div>
             </div>
             <div>
-              <img
+              <img className="mx-1" 
                 src={Photo}
                 alt=""
                 id="basic-button"
@@ -48,7 +49,7 @@ export default function DashBoard() {
             </div>
             <Menu
               id="basic-menu"
-              className="mt-5"
+              style={{marginTop:"60px",padding:"10px"}}
               // aria-labelledby="demo-positioned-button"
               anchorEl={anchorEl}
               open={open}
@@ -57,10 +58,10 @@ export default function DashBoard() {
                 "aria-labelledby": "basic-menu",
               }}
             >
-              <div className="cards-details d-flex flex-column justify-content boder-none b-none align-item-center w-20">
-                <div>Login</div>
-                <div>signup</div>
-                <div>Logout</div>
+              <div className="m-4 cards-details d-flex flex-column justify-content boder-none b-none align-item-center w-50">
+                <div className="pt-2 ">Login</div>
+                <div className="pt-2">signup</div>
+                <div className="pt-2">Logout</div>
 
               </div>
             </Menu>

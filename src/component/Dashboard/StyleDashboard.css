@@ -39,29 +39,9 @@
 .p-fixed{
     position: fixed;
 }
-.navContainer
-{
-    background-color:red;
-    width: 100%;
-    /* margin: 0px auto; */
-    /* padding: 10px; */
+.cursor-pointer{
+cursor: pointer;
 }
-.logo{
-    margin-right: 20px;
-  
-}
-.logo {
-      width: 70px;
-      cursor: pointer;
-}
-.loginUser{
-    width: 54px;
-    padding: 15px;
-    border-radius: 56px;
- border: 2px solid rgb(12, 11, 11);
- margin-left: 10px;
 
-}
-.dropdownbtn{
-    border: none;
-}
+
+
