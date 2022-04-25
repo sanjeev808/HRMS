@@ -15,7 +15,7 @@ import { NavLink } from "react-router-dom";
 export default function Content() {
   return (
     <>
-<div className=" p-relative mt-5">
+<div className=" left mt-5">
 <div className="d-flex justify-evenly bg-light text-align-left">
 <NavLink to="/hr-attendance" style={{textDecoration:"none"}} className="w-25 text-dark">
   <div className="w-100 mt-5 text-align-none">
