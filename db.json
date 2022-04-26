@@ -9,7 +9,12 @@
       "position": "Developer",
       "id": 1,
       "CTC": "8LPA",
-      "documents": "10th,12th&B.tech"
+      "number":700971037,
+      "documents": "10th,12th&B.tech",
+      "bankName": "ICIC BANK",
+      "bankAccount": "568925759675",
+      "workingDays":20,
+      "city":"Chandigarh"
     },
     {
       "name": "Ajeet kumar",

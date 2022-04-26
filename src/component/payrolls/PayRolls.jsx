@@ -103,7 +103,7 @@ export default function PayRolls() {
                                 <td>{item.CTC}</td>
                                 <td>{item.position}</td>
 
-                                <td><NavLink to="/payrolls/salaryslip/generate" ><button className="btn btn-info">Genertor Slip </button></NavLink></td>
+                                <td><NavLink to={`/payrolls/salaryslip/generate/${item.id}` }><button className="btn btn-info">Genertor Slip </button></NavLink></td>
 
                             </tr>)
                         })}
