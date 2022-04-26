@@ -3,8 +3,6 @@ import React, { useRef } from "react";
 import html2canvas from "html2canvas";
 import cloudHR from "../../img/company-logo.jpg";
 
-
-
 export default function SalarySlipGenerate() {
   const printRef = React.useRef();
   let EmpID = "404";
