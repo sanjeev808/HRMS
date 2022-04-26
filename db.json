@@ -1,23 +1,7 @@
 {
   "users": [
     {
-      "name": "Ankit",
-      "email": "Ankit@gmail.com",
-      "status": "Reactjs",
-      "joining_date": "03-03-2022",
-      "appraisal_date": "19-09-2022",
-      "position": "Developer",
-      "id": 1,
-      "CTC": "8LPA",
-      "number":700971037,
-      "documents": "10th,12th&B.tech",
-      "bankName": "ICIC BANK",
-      "bankAccount": "568925759675",
-      "workingDays":20,
-      "city":"Chandigarh"
-    },
-    {
-      "name": "Ajeet kumar",
+      "name": "Ajeet kumar xcxc",
       "email": "Ajeet@gmail.com",
       "status": "Reactjs",
       "joining_date": "07-02-2022",
@@ -57,6 +41,18 @@
       "appraisal_date": "19-09-2022",
       "position": "employee",
       "id": 5,
+      "CTC": "4LPA",
+      "documents": "10th,12th&B.tech"
+    },
+    {
+      "name": "Anmol Sharma",
+      "email": "Anmolsharma@gmail.com",
+      "status": "Angular",
+      "joining_date": "06-03-2022",
+      "appraisal_date": "06-10-2022",
+      "position": "employee",
+      "location": "khanna",
+      "id": 6,
       "CTC": "4LPA",
       "documents": "10th,12th&B.tech"
     }

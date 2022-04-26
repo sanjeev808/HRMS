@@ -98,7 +98,7 @@ export default function SalarySlipGenerate() {
               </tr>
               <tr className="h5" >
                 <td className="h5">Location:</td>
-                <td>{user.city}</td>
+                <td>{user.location}</td>
                 <td className="h5">Department:</td>
                 <td>{user.status}</td>
               </tr>
