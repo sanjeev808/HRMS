@@ -1,17 +1,28 @@
 import { jsPDF } from "jspdf";
-import React, { useRef } from "react";
+import React, { useRef ,useEffect,useState } from "react";
 import html2canvas from "html2canvas";
 import cloudHR from "../../img/company-logo.jpg";
+import axios from "axios";
+import { useParams } from "react-router-dom";
 
+
+const initialValues = {
+  EmpID  : "",
+  EmpName :"",
+  BankName : "ICIC BANK",
+  bankAccountNumber : "252635289852",
+  EmpEmail : "",
+  EmpRole : "",
+  WorkedDays : "20"
+}
 export default function SalarySlipGenerate() {
   const printRef = React.useRef();
-  let EmpID = "404";
-  let EmpName = "Ankit Kumar";
-  let BankName = "ICICI";
-  let bankAccountNumber = "12121212121";
-  let EmpEmail = "ankit@gmail.com";
-  let EmpRole = "Manager";
-  let WorkedDays = 20;
+  const [user, setUser] = useState(initialValues);
+  const {id} = useParams();
+  console.log(id)
+
+
+ 
   const printPDF = async () => {
     const divToDisplay = printRef.current;
     const doc = new jsPDF();
@@ -40,6 +51,15 @@ export default function SalarySlipGenerate() {
       pdf.save("download.pdf");
     });
   };
+  useEffect(() =>{
+    loadUserData();
+  }, []);
+
+  const loadUserData = async() => {
+    const response = await axios.get(`http://localhost:3004/users/${id}`);
+    setUser(response.data);
+    console.log(setUser)
+ }
   return (
     <>
       <div className="Payrolls  px-3 h3 ">
@@ -60,39 +80,39 @@ export default function SalarySlipGenerate() {
                   PaySlip for March 2022
                 </td>
               </tr>
-              <tr>
+              <tr className="h5">
                 <td className="h5">Employee ID:</td>
-                <td>{EmpID}</td>
+                <td>{user.id}</td>
                 <td className="h5">Employee Name:</td>
-                <td>{EmpName}</td>
+                <td>{user.name}</td>
               </tr>
-              <tr>
+              <tr className="h5">
                 <td className="h5">Employee Email:</td>
-                <td>{EmpEmail}</td>
+                <td>{user.email}</td>
                 <td className="h5">Role:</td>
-                <td>{EmpRole}</td>
+                <td>{user.position}</td>
               </tr>
-              <tr>
+              <tr className="h5">
                 <td className="h5">Mobile Number:</td>
-                <td>121211121211121</td>
+                <td>{user.number}</td>
               </tr>
-              <tr>
+              <tr className="h5" >
                 <td className="h5">Location:</td>
-                <td>Chandigarh</td>
+                <td>{user.city}</td>
                 <td className="h5">Department:</td>
-                <td>React Js</td>
+                <td>{user.status}</td>
               </tr>
-              <tr>
+              <tr className="h5">
                 <td className="h5">Bank Name:</td>
-                <td>{BankName}</td>
+                <td>{user.bankName}</td>
                 <td className="h5">Bank Account No:</td>
-                <td>{bankAccountNumber}</td>
+                <td>{user.bankAccount}</td>
               </tr>
-              <tr>
+              <tr className="h5">
                 <td className="h5">Total Days:</td>
-                <td>{WorkedDays}</td>
+                <td>{user.workingDays}</td>
                 <td className="h5">PF No:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
               </tr>
             </tbody>
           </table>
@@ -108,39 +128,39 @@ export default function SalarySlipGenerate() {
             <tbody>
               <tr>
                 <td className="h5">Basic:</td>
-                <td>{bankAccountNumber}</td>
+                {/* <td>{bankAccountNumber}</td> */}
                 <td className="h5">Provident Fund:</td>
-                <td>{bankAccountNumber}</td>
+                {/* <td>{bankAccountNumber}</td> */}
               </tr>
               <tr>
                 <td className="h5">House Rent Allowance:</td>
-                <td>{bankAccountNumber}</td>
+                {/* <td>{bankAccountNumber}</td> */}
                 <td className="h5">Professional Tax:</td>
-                <td>{bankAccountNumber}</td>
+                {/* <td>{bankAccountNumber}</td> */}
               </tr>
               <tr>
                 <td className="h5">Special Allowance:</td>
-                <td>{BankName}</td>
+                {/* <td>{BankName}</td> */}
                 <td className="h5">Income Tax:</td>
-                <td>{bankAccountNumber}</td>
+                {/* <td>{bankAccountNumber}</td> */}
               </tr>
               <tr>
                 <td className="h5">Convneyance:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
               </tr>
               <tr>
                 <td className="h5">Additional Special Allowance:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
               </tr>
               <tr>
                 <td className="h5">OnCall/Shift Allowance:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
               </tr>
               <tr>
                 <td className="h5">Gross Earning:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
                 <td className="h5">Gross Earning:</td>
-                <td>{WorkedDays}</td>
+                {/* <td>{WorkedDays}</td> */}
               </tr>
               <tr>
                 <td colSpan="2">Net Pay</td>
@@ -150,8 +170,9 @@ export default function SalarySlipGenerate() {
           </table>
           <div className="d-flex align-items-end flex-column mx-5">
             <div className="my-3 ">Checked By</div>
+            <tr><td>{user.name}</td></tr>
             <div className="my-3">Name of the Person</div>
-            <img src={cloudHR} alt="signature" className="img-width" />
+            <img src={cloudHR} alt="signature" className="w-25" />
             <div className="my-5">Signature</div>
           </div>
         </div>

@@ -47,7 +47,9 @@ export default function Routing() {
               </>
               <Route path="/hr-payrolls" element={<PayRolls />} />
               <Route path="/payrolls/salaryslip" element={<SalarySlip />} />
-              <Route path="/payrolls/salaryslip/generate" element={<SalarySlip />} />
+               <Route path="/payrolls/salaryslip/generate" element={<SalarySlip />} />
+              <Route path="/payrolls/salaryslip/generate/:id" element={<SalarySlip />} />
+
               <Route path="/hr-complaint" element={<Complaint />} />
               {/* <Route path="/complaint/View_detail" element={<ViewComplaintDetail />} /> */}
               <Route path="/complaint/View_detail/complaint_detail/:id" element={<ViewComplaintDetail />} />
