@@ -28,6 +28,10 @@ position: relative;
 .w-20{
     width: 20%;
 }
+.left{
+    margin-left: 24%;
+    width: 100%;
+}
 .btn1{
     padding: 10px 14px;
     text-align: left;

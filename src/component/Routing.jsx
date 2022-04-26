@@ -35,7 +35,7 @@ export default function Routing() {
             <div className="col-2 m-0" style={{position:"fixed"}}>
               <SideBar />
             </div>
-            <div className="col-10 Content" >
+            <div className="col-10 ml-5" >
             <Routes>
               <Route exact path="/" element={<Content />} />
               <Route path="/hr-attendance" element={<Attendance />} />
