@@ -20,42 +20,44 @@ export default function SideBar() {
    }
   return (
     // <div className="container-fluid bg-danger  ">
-    <div className="bg-light  w-100 sidebarContainer ">
+    <div className="color height w-100 sidebarContainer ">
       <div className=" align-items-center">
         <NavLink to="/" activeClassName = "active-link"
       //  className={ ((isActive)=>(isActive) ? 'bgcolor' : 'color')} 
       >
-          <button  className="btn w-75 mt-3 text-align-left " >
-            <img src={home} alt="" className="w-15 mx-2" />
-            Home</button>
+          <button  className="btn w-75 mt-3 text-align-left  " >
+            <img src={home} alt="" className="w-15 mx-2 fltr " />
+           <span className="col-side">Home</span> </button>
         </NavLink>
       </div>
 
       <div className=" align-items-center">
         <NavLink to="/hr-attendance" className={ ((isActive)=>(isActive) ? 'bgcolor' : 'color')}>
-          <button className="btn   mt-3  w-75 text-align-left"><img src={attendance} alt="" className="w-15 mx-2" />Attendance</button>
+          <button className="btn   mt-3  w-75 text-align-left"><img src={attendance} alt="" className="w-15 mx-2 fltr"/>
+          <span className="col-side"> Attendance</span></button>
 
         </NavLink>
       </div>
       <div className="d-flex align-items-center ">
         <NavLink to="/hr-employeedocument">
 
-          <button className="btn   w-75 mt-3 boder-none  text-align-left"><img src={document} alt="" className="w-15 mx-2" />Documents</button>
+          <button className="btn   w-75 mt-3 boder-none  text-align-left"><img src={document} alt="" className="w-15 mx-2 fltr" /><span className="col-side"> Documents</span></button>
         </NavLink>
       </div>
       <NavLink to="/hr-payrolls">
-        <button className="btn   w-75 mt-3 text-align-left">
-          <img src={money} alt="" className="w-15 mx-2" /> Payrolls</button>
+        <button className="btn down w-75 mt-3 text-align-left">
+          <img src={money} alt="" className="w-15 mx-2 fltr" /> <span className="col-side">Payrolls</span> </button>
       </NavLink>
       <NavLink to="/hr-complaint">
-        <button className="btn   w-75 mt-3 text-align-left"> <img src={complaint} alt="" className="w-15 mx-2" />Complaint</button>
+        <button className="btn   w-75 mt-3 text-align-left"> <img src={complaint} alt="" className="w-15 mx-2 fltr" /><span className="col-side">Complaint</span></button>
       </NavLink>
       <NavLink to="/hr-events">
-        <button className="btn  btn-light w-75 mt-3 text-align-left">
-          <img src={event} alt="" className="w-15 mx-2" /> Event</button>
+        <button style={{border:"transparent",background:"transparent"}}className="btn color w-75 mt-3 text-align-left">
+          <img src={event} alt="" className="w-15 mx-2 fltr" /> <span className="col-side">Events</span></button>
       </NavLink>
       <NavLink to="/hr-hiring">
-        <button className="btn  btn-light w-75 mt-3 text-align-left"> <img src={hiring} alt="" className="w-15 mx-2" />Hiring</button>
+        <button  style={{border:"transparent",background:"transparent"}} 
+        className="btn color  w-75 mt-3 text-align-left"> <img src={hiring} alt="" className="w-15 mx-2 fltr" /><span className="col-side">Hiring</span></button>
       </NavLink>
     </div >
 

@@ -1,8 +1,7 @@
 import "../EmployeeDocument/EmployeeDocument.css";
 import {addUser} from '../EmployeeDocument/Service/api';
 import {useNavigate} from 'react-router-dom';
-import React,{useState} from 'react'
-
+import React,{useState} from 'react';
 
 
 const initialValues = {
@@ -14,7 +13,10 @@ const initialValues = {
   position:'',
 }
 
+
+
 function AddUsers() {
+
   const [user, setUser] = useState(initialValues);
   const {name,email,status,joining_date, appraisal_date,position} = user;
    const navigate = useNavigate();
@@ -32,9 +34,11 @@ function AddUsers() {
 
   return (
 <>
-<form className="form"> <h1 className="head">Add Users</h1><br/>
+<div><h1>Add Users</h1></div>
+<form className="form" > <br/>
   <div className="form-group">
-    <input type="text"
+    <input 
+     type="text"
      className="form-control" 
      placeholder="Enter Name"
      onChange={(e)=> onValueChange(e)} 
@@ -43,7 +47,8 @@ function AddUsers() {
      />
   </div> <br/>
   <div className="form-group">
-    <input type="email" 
+    <input 
+     type="email" 
     className="form-control" 
     placeholder="Enter Email"
     onChange={(e)=> onValueChange(e)} 
@@ -55,7 +60,7 @@ function AddUsers() {
     className="form-control"
      placeholder="Technology"
      onChange={(e)=> onValueChange(e)}
-      name='status' value={status}
+      name='status' value={status} minLength="3"
      />
   </div> <br/>
   <div className="form-group">

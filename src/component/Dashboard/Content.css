@@ -29,9 +29,10 @@ position: relative;
     width: 20%;
 }
 .left{
-    margin-left: 24%;
+    margin-left: 32%;
     width: 100%;
 }
+
 .btn1{
     padding: 10px 14px;
     text-align: left;
@@ -44,6 +45,49 @@ position: relative;
     width: 80%;
     margin-left: 20%;
     margin-top: 5%;
+}
+.top{
+    margin-top:8rem;
+    background-color:  #36D1DC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+/* .nav{
+    position: relative;
+    z-index: -1;
+} */
+.img-atd{
+    margin-left: 4rem;
+    text-align: center;
+
+}
+/* .box{
+    border: 2px solid black;
+    text-align: center;
+    margin-top: 1rem;
+    height: 29.5rem;
+} */
+.para{
+    color: #fff;
+}
+.event_1{
+    margin-left: 3rem;
+}
+.hire{
+    margin-left: 1rem;
+}
+.pay{
+    margin-left: 2rem;
+}
+.fltr{
+    filter:invert(1)
+  }
+.color{
+    background-color: #0096FF;
+}
+.mg{
+    margin-top: 0.3rem;
 }
 
 .boxe-1

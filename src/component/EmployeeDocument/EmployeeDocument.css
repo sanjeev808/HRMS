@@ -17,6 +17,25 @@
     margin-top: 5rem;
     width: 40rem;
 }
+.btn-delete{
+    background-color: red !important;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 7px;
+}
+.btn-warning{
+    border: transparent;
+    border-radius: 5px;
+    padding: 7px;
+    width: 4.5rem;
+}
+.btn-info{
+    border: transparent;
+    border-radius: 5px;
+    padding: 7px;
+    width: 4.5rem;
+}
 .head{
     margin-left: 11rem;
 }

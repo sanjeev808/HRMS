@@ -34,15 +34,15 @@ export default class DemoApp extends React.Component {
         // event={event}
         // resources={resources}
         eventContent={renderEventContent}
-        events={[ 
-          {title:'Meeting',date:'2022-04-05',backgroundColor:"red",url:"https://unsplash.com/photos/XZkk5xT8Xrk"},
-          {title:'event 2',date:'2022-04-08',backgroundColor:"green",url:""},
-          {title:'event 121212',date:'2022-04-10',backgroundColor:"yellow",url:""},
-          {title:'event 3',date:'2022-04-15',backgroundColor:"orange"},
-          {title:'event 4',date:'2022-04-18',backgroundColor:"blue"},
-          {title:'event 5',date:'2022-04-20',backgroundColor:"purple"},
+        // events={[ 
+        //   {title:'Meeting',date:'2022-04-05',backgroundColor:"#f56a77",url:"https://unsplash.com/photos/XZkk5xT8Xrk"},
+        //   {title:'event 2',date:'2022-04-08',backgroundColor:"#7be5b4",url:""},
+        //   {title:'event 121212',date:'2022-04-10',backgroundColor:"brown",url:""},
+        //   {title:'event 3',date:'2022-04-15',backgroundColor:"orange"},
+        //   {title:'event 4',date:'2022-04-18',backgroundColor:"#7be5b4"},
+        //   {title:'event 5',date:'2022-04-20',backgroundColor:"#f389e6"},
           
-        ]}
+        // ]}
         customButtons={{
           myCustomButton: {
             text: 'AddEvents!',

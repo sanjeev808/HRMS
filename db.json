@@ -8,7 +8,7 @@
       "appraisal_date": "19-09-2022",
       "position": "Developer",
       "id": 1,
-      "CTC": "8LPA",
+      "CTC": "10LPA",
       "documents": "10th,12th&B.tech"
     },
     {
@@ -30,7 +30,7 @@
       "appraisal_date": "19-09-2022",
       "position": "Developer",
       "id": 3,
-      "CTC": "3.4LPA",
+      "CTC": "2.4LPA",
       "documents": "10th,12th&B.tech"
     },
     {
@@ -42,17 +42,6 @@
       "position": "Developer",
       "id": 4,
       "CTC": "3.8LPA",
-      "documents": "10th,12th&B.tech"
-    },
-    {
-      "name": "Sanjeev Maurya   ",
-      "email": "sanjeev @gmail.com",
-      "status": "react js",
-      "joining_date": "06-03-2022",
-      "appraisal_date": "19-09-2022",
-      "position": "employee",
-      "id": 5,
-      "CTC": "4LPA",
       "documents": "10th,12th&B.tech"
     }
   ]

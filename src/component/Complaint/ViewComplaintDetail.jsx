@@ -43,7 +43,7 @@ function View() {
     //  
     //   </div>
     // </div>
-    <div className='employee-complaint'>
+    <div className='employee-complaint left'>
         <ul className=' view-order ' >
        <li className='employee-id'><span> ID:</span> {user.id}</li>
         <li className='employee-id ccc5c5' > Name: {user.name}</li> 

@@ -12,8 +12,8 @@ const useStyle = makeStyles({
   allUser: {
     width: "100%",
     // marginLeft: "20%",
-    marginTop: "10%",
-    paddingLeft: "1%",
+    marginTop: "10rem",
+    marginLeft: "19rem"
   },
   button: {
     marginRight: "10px",
@@ -89,7 +89,7 @@ const AllUsers = (user) => {
             type="search"
             id="name"
             placeholder="Employee Name"
-            className={classes.nav}
+           style={{marginLeft:"14rem"}}
             onChange={(event) => {
               setQuery(event.target.value);
             }}
@@ -130,14 +130,14 @@ const AllUsers = (user) => {
                 {/* <td>{user.action}</td> */}
                <NavLink to={`/hr-employeedocument/edit/${user.id}`}><button
                   type="button"
-                 className="btn btn-info"
+                 className="btn-info"
                 >
                   Update
                 </button>
                 </NavLink>
                 <NavLink to={`/hr-employeedocument/View/${user.id}`}><button
                   type="button"
-                 className="btn btn-warning"
+                 className="btn-warning"
                 >
                   View
                 </button>
@@ -145,7 +145,7 @@ const AllUsers = (user) => {
                 
                <button
                   type="button"
-                  className ="button.del_btn"
+                  className ="btn-delete"
                  onClick={() => deleteUserData(user.id)}
                 >
                   Remove

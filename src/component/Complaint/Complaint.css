@@ -7,8 +7,8 @@
 .employee-complaint{
     width: 100%;
     /* background: yellow; */
-    margin-top: 6%;
-    margin-left: 20%;
+    margin-top: 15%;
+    margin-left: 9%;
 }
 .btn2{
     width: 22px;
@@ -39,4 +39,10 @@
 }
 .ccc5c5{
     background-color:#ccc5c5
+}
+.bar{
+    margin-left: 6rem;
+}
+.left{
+    margin-left: 305px;
 }

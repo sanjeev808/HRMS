@@ -9,3 +9,7 @@
     height: 50%;
     margin:9% 18% 20% 28%;
 }
+.main-container{
+    position: relative;
+    z-index: -1;
+}

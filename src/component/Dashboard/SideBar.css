@@ -11,6 +11,30 @@
 .boder-none{
   border: none;
 }
+.btn{
+  border: transparent;
+    background: transparent;
+}
+.color{
+  background: #36D1DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5B86E5, #36D1DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.back{
+  background: transparent;
+}
+.height{
+  max-height: 100vh;
+}
+.col-side{
+  color:aliceblue;
+}
+.fltr{
+  filter:invert(1)
+}
+.color{
+  background-color: #0096FF;
+}
 .w-15{
   width: 15%;
 }
@@ -21,7 +45,7 @@
   margin: 0px;
 }
 .sidebarContainer { 
-  height: calc(100vh - 100px);
+  height: 100vh;
   margin: 41% 0%;
 }
 .m-53
@@ -30,6 +54,9 @@
 }
 .p-fixed {
   position: fixed;
+}
+.down {
+  padding: 1rem;
 }
 .d-flex{
   display: flex;
