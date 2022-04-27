@@ -21,20 +21,22 @@ export default function DashBoard() {
         <div className="col py-3 bg-light d-flex align-items-center justify-content-between">
           <NavLink to="/" className="icon w-20 text-decoration-none text-dark">
             {/* <img className="w-30" src={cloud} alt="" /> */}
-            <h2 className="" >HR-Cloud</h2>
+           <div className=" cursor-pointer">
+            <h2 style={{ color:"#0096FF"}}>HR-Cloud</h2>
+            </div>
           </NavLink>
           <div className="d-flex  align-items-center fs-5">
             <div className="mx-4 d-flex ">
               <div className="mx-1 text-secondary  ">
-                <i class="cursor-pointer fa fa-gear mr-5 "></i>
+                <i class="cursor-pointer fa fa-gear mr-5 fltr "></i>
               </div>
-              <div className="text-secondary cursor-pointer">setting</div>
+              <div className="color-nav cursor-pointer"><b>Setting</b></div>
             </div>
             <div className="mx-4 cursor-pointer d-flex">
               <div className="mx-1 text-secondary ">
                 <i class="mr-2 cursor-pointer fa fa-clock-rotate-left "></i>
               </div>
-              <div className="text-secondary cursor-pointer">History</div>
+              <div className="color-nav cursor-pointer"><b>History</b></div>
             </div>
             <div>
               <img className="mx-1" 

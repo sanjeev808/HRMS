@@ -1,8 +1,7 @@
 import "../EmployeeDocument/EmployeeDocument.css";
 import {addUser} from '../EmployeeDocument/Service/api';
 import {useNavigate} from 'react-router-dom';
-import React,{useState} from 'react'
-
+import React,{useState} from 'react';
 
 
 const initialValues = {
@@ -15,7 +14,10 @@ const initialValues = {
   location:'',
 }
 
+
+
 function AddUsers() {
+
   const [user, setUser] = useState(initialValues);
   const {name,email,status,joining_date, appraisal_date,position,location} = user;
    const navigate = useNavigate();
@@ -33,9 +35,11 @@ function AddUsers() {
 
   return (
 <>
-<form className="form"> <h1 className="head">Add Users</h1><br/>
+<div><h1>Add Users</h1></div>
+<form className="form" > <br/>
   <div className="form-group">
-    <input type="text"
+    <input 
+     type="text"
      className="form-control" 
      placeholder="Enter Name"
      onChange={(e)=> onValueChange(e)} 
@@ -44,7 +48,8 @@ function AddUsers() {
      />
   </div> <br/>
   <div className="form-group">
-    <input type="email" 
+    <input 
+     type="email" 
     className="form-control" 
     placeholder="Enter Email"
     onChange={(e)=> onValueChange(e)} 
@@ -56,7 +61,7 @@ function AddUsers() {
     className="form-control"
      placeholder="Technology"
      onChange={(e)=> onValueChange(e)}
-      name='status' value={status}
+      name='status' value={status} minLength="3"
      />
   </div> <br/>
   <div className="form-group">
@@ -82,7 +87,7 @@ function AddUsers() {
       onChange={(e)=> onValueChange(e)} 
       name='appraisal_date' value={appraisal_date}/>
   </div>
-  
+  <br/>
   <div className="form-group">
     <input type="text"
      className="form-control"
@@ -97,8 +102,8 @@ function AddUsers() {
   onClick={() => addUserDetails()}>Submit</button>
 </form>
 
-<button style={{marginLeft:"-3rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"6rem",height:"2rem"}} onClick={() => navigate(-1.5)}>Back</button>
-
+<button style={{marginLeft:"25rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"1rem",height:"2rem"}} onClick={() => navigate(-1.5)}>Back</button>
+<h1 style={{color:"#fff"}}>hi</h1>
 </>
 
    //<p>Add User</p>

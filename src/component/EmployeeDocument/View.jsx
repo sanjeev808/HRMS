@@ -43,8 +43,8 @@ function View() {
   return (
     <>
     <div  style={{marginTop: "8rem"}} >
-      <h1>User Id: {id}</h1>
-      
+      <h1 style={{marginLeft: "23rem"}}>User Id: {id}</h1>
+
       <div style={{marginLeft: "30rem",width:"30rem",textAlign: "center"}}>
       <ul className="">
       <li className="list-item"> ID: {user.id}</li>

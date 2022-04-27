@@ -2,7 +2,15 @@
     margin-top: 15%;
     padding: 20px;
     width: 100%;
-    margin-left: 20%;
+    margin-left: 18%;
+}
+.search_bar{
+    margin-left: 18%;
+}
+.pay_table{
+    margin-left: 16%;
+    width: 95%;
+    margin-left: 13rem;
 }
 .outline-style-none{
     outline: none;
@@ -26,12 +34,30 @@
     margin-top: 5rem;
     width: 40rem;
 }
-.head{
-    margin-left: 11rem;
+.btn-delete{
+    background-color: red !important;
+    border: transparent;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-left: 7px;
 }
+.btn-warning{
+    border: transparent;
+    border-radius: 5px;
+    padding: 7px;
+    width: 4.5rem;
+}
+.btn-info{
+    border: transparent;
+    border-radius: 5px;
+    padding: 7px;
+    width: 5.5rem;
+}
+/* .head{
+    margin-left: 11rem;
+} */
 .submit{
     background: cornflowerblue;
-    margin-left: 14rem;
     width: 6rem;
     height: 2rem;
     border: 2px solid cornflowerblue;

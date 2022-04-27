@@ -13,8 +13,8 @@ const useStyle = makeStyles({
   allUser: {
     width: "100%",
     // marginLeft: "20%",
-    marginTop: "10%",
-    paddingLeft: "1%",
+    marginTop: "10rem",
+    marginLeft: "19rem"
   },
   button: {
     marginRight: "10px",
@@ -83,8 +83,9 @@ const AllUsers = (user) => {
   };
   const [query, setQuery] = useState("");
   return (
-<>
-    <div className="left bg- w-100 ">
+
+    <div className={classes.allUser}>
+     <div style={{marginLeft:"-6rem"}} className="bg- w-100 ">
       <form action="">
         <input
           type="search"
@@ -128,30 +129,33 @@ const AllUsers = (user) => {
                 {/* <td>{user.action}</td> */}
                <NavLink to={`/hr-employeedocument/edit/${user.id}`}><button
                   type="button"
-                 className="btn btn-info"
+                 className="btn-info"
                 >
                   Update
                 </button>
                 </NavLink>
                 <NavLink to={`/hr-employeedocument/View/${user.id}`}><button
                   type="button"
-                 className="btn btn-warning"
+                 className="btn-warning"
                 >
                   View
                 </button>
                 </NavLink>
 
-               <button type="button" className="btn bg-danger mt-1" onClick={() => deleteUserData(user.id)}> Remove  </button>
+               <button type="button" className="btn-delete " onClick={() => deleteUserData(user.id)}> Remove  </button>
 
               </tr>
             ))}
         </tbody>
       </table>
 
-    </div>
+     </div>
+     </div>     
+  );
+            };
+            export default AllUsers;    
 
-
-    {/* <div className={classes.allUser}>
+     {/* <div className={classes.allUser}>
       <form action="" className="payrolls-form">
         <div className="employee-name">
           <input
@@ -214,7 +218,7 @@ const AllUsers = (user) => {
 
                <button
                   type="button"
-                  className ="button.del_btn"
+                  className ="btn-delete"
                  onClick={() => deleteUserData(user.id)}
                 >
                   Remove
@@ -230,8 +234,6 @@ const AllUsers = (user) => {
 
 
 
-    </div> */}
-    </>
-  );
-};
-export default AllUsers;
+            </div> */}
+    
+

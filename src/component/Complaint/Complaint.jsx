@@ -36,7 +36,7 @@ export default function Complaint() {
   return (
     <div className='complaint'>
       <div className='employee-complaint'><h2>Employee Complaint</h2></div>
-      <form action="" className="payrolls-form">
+      <form action="" className="payrolls-form bar">
                 <div className="employee-name">
                     <input type="search" id="name" placeholder="Employee Name"
                         onChange={event => { setQuery(event.target.value) }} />
@@ -45,7 +45,7 @@ export default function Complaint() {
                     <button className="btn btn-info" style={{ width: 118, padding: 12 }}>Search</button>
                 </div>
             </form>
-            <table className="table" id="myTable">
+            <table className="table bar" id="myTable">
 
                 <thead>
                     <tr>

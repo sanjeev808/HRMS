@@ -9,7 +9,7 @@ import { useParams } from "react-router-dom";
 const initialValues = {
   EmpID  : "",
   EmpName :"",
-  BankName : "ICIC BANK",
+  //BankName : "ICICI BANK",
   bankAccountNumber : "252635289852",
   EmpEmail : "",
   EmpRole : "",
@@ -64,11 +64,11 @@ export default function SalarySlipGenerate() {
     <>
       <div className="Payrolls  px-3 h3 ">
         {/* <div className="text-center">Salary Slip Generate</div> */}
-        <div ref={printRef} className=" px-5 pdFile">
+        <div ref={printRef} className=" slip_lf pdFile">
           <div className="">
           <img src={cloudHR} alt="" className="py-1 w-20" />
           </div>
-          <table className="table table-Danger table-striped border-primary">
+          <table className="table table-Danger table-striped border-primary font">
             <thead>
               <tr>
                 <th colSpan="4">Cloud HR</th>
@@ -94,7 +94,7 @@ export default function SalarySlipGenerate() {
               </tr>
               <tr className="h5">
                 <td className="h5">Mobile Number:</td>
-                <td>{user.number}</td>
+                <td>{user. mobile_No}</td>
               </tr>
               <tr className="h5" >
                 <td className="h5">Location:</td>
@@ -104,19 +104,20 @@ export default function SalarySlipGenerate() {
               </tr>
               <tr className="h5">
                 <td className="h5">Bank Name:</td>
-                <td>{user.bankName}</td>
+                <td>{user.bank_name}</td>
                 <td className="h5">Bank Account No:</td>
-                <td>{user.bankAccount}</td>
+                <td>{user.bank_Accountno}</td>
               </tr>
               <tr className="h5">
                 <td className="h5">Total Days:</td>
-                <td>{user.workingDays}</td>
+                <td>{user.total_days}</td>
                 <td className="h5">PF No:</td>
-                {/* <td>{WorkedDays}</td> */}
+                <td>{user.id}</td>
+               
               </tr>
             </tbody>
           </table>
-          <table className="table table-Danger table-striped my-5 border-primary">
+          <table className="table table-Danger table-striped my-5 border-primary font">
             <thead>
               <tr className="h5">
                 <th>Earnings:</th>
@@ -140,7 +141,7 @@ export default function SalarySlipGenerate() {
               </tr>
               <tr>
                 <td className="h5">Special Allowance:</td>
-                {/* <td>{BankName}</td> */}
+                <td>{user.bank_name}</td>
                 <td className="h5">Income Tax:</td>
                 {/* <td>{bankAccountNumber}</td> */}
               </tr>
@@ -154,7 +155,7 @@ export default function SalarySlipGenerate() {
               </tr>
               <tr>
                 <td className="h5">OnCall/Shift Allowance:</td>
-                {/* <td>{WorkedDays}</td> */}
+                <td>{user.total_days}</td>
               </tr>
               <tr>
                 <td className="h5">Gross Earning:</td>
@@ -165,18 +166,21 @@ export default function SalarySlipGenerate() {
               <tr>
                 <td colSpan="2">Net Pay</td>
                 <td colSpan="2">Salary</td>
+                <td>{user.earning}</td>
               </tr>
             </tbody>
           </table>
-          <div className="d-flex align-items-end flex-column mx-5">
+          <div className="d-flex align-items-end flex-column mx-5 font">
             <div className="my-3 ">Checked By</div>
-            <tr><td>{user.name}</td></tr>
+            <tr><td>{user.hr}</td></tr>
             <div className="my-3">Name of the Person</div>
+            <tr><td>{user.name}</td></tr>
             <img src={cloudHR} alt="signature" className="w-25" />
-            <div className="my-5">Signature</div>
+            <div className="sign">Signature</div>
+            <td>{user.signature}</td>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text_center">
           <button onClick={printPDF} className="my-3 btn btn-primary">
             Generate Salary Slip
           </button>
