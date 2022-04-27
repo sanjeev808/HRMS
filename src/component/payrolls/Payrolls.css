@@ -13,6 +13,9 @@
     width: 20px;
     display: inline;
 }
+.text_center{
+    margin-left: 15rem
+}
 #name{
     /* background: red; */
     width: 368px;
@@ -21,13 +24,25 @@
     margin: 0px 53px 27px 92px;
     display: inline;
 }
+.sign{
+    margin-top: 15px;
+}
+.font{
+    font-size: 1.5rem;
+}
+.slip_lf{
+    margin-left: 20rem;
+}
 
 .employee-role{
     display: inline;
 }
 .employee{
-    margin-left: 28rem;
-}
+    margin-left: 27%;
+    margin-top: -2%;
+    font-size: 30px;
+}  
+
 #role{
     width: 15%;
     padding: 15px;

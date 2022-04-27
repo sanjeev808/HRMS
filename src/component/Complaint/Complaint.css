@@ -1,13 +1,14 @@
 .complaint{
     width: 100%;
     /* background: yellow; */
-    margin-top: 6%;
-    margin-left: 20%;
+    margin-top: 1%;
+    margin-left: 10%;
 }
+
 .employee-complaint{
     width: 100%;
     /* background: yellow; */
-    margin-top: 15%;
+    margin-top: 5.5rem;
     margin-left: 9%;
 }
 .btn2{
@@ -43,6 +44,6 @@
 .bar{
     margin-left: 6rem;
 }
-.left{
+.left_complain{
     margin-left: 305px;
 }

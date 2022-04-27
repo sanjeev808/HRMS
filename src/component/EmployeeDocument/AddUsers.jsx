@@ -11,6 +11,7 @@ const initialValues = {
   joining_date:'',
   appraisal_date:'',
   position:'',
+  location:'',
 }
 
 
@@ -18,7 +19,7 @@ const initialValues = {
 function AddUsers() {
 
   const [user, setUser] = useState(initialValues);
-  const {name,email,status,joining_date, appraisal_date,position} = user;
+  const {name,email,status,joining_date, appraisal_date,position,location} = user;
    const navigate = useNavigate();
 
   const onValueChange = (e) => {
@@ -85,14 +86,24 @@ function AddUsers() {
       placeholder="Appraisal Date"
       onChange={(e)=> onValueChange(e)} 
       name='appraisal_date' value={appraisal_date}/>
-  </div><br/>
+  </div>
+  <br/>
+  <div className="form-group">
+    <input type="text"
+     className="form-control"
+      placeholder="location"
+      onChange={(e)=> onValueChange(e)} 
+      name='location' value={location}/>
+  </div>
+
+  <br/>
   <button type="submit" 
   className="submit"
   onClick={() => addUserDetails()}>Submit</button>
 </form>
 
-<button style={{marginLeft:"-3rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"6rem",height:"2rem"}} onClick={() => navigate(-1.5)}>Back</button>
-
+<button style={{marginLeft:"25rem",width:"4rem",backgroundColor:"#0dcaf0",border:"#0dcaf0",color:"#fff",marginTop:"1rem",height:"2rem"}} onClick={() => navigate(-1.5)}>Back</button>
+<h1 style={{color:"#fff"}}>hi</h1>
 </>
 
    //<p>Add User</p>

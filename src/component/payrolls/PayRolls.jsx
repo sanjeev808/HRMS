@@ -43,7 +43,7 @@ export default function PayRolls() {
 
                 <h3>Employee Salary</h3>
             </div>
-            <form action="" className="payrolls-form left">
+            <form action="" className="payrolls-form search_bar">
                 <div className="employee-name">
                     <input type="search" id="name" placeholder="Employee Name"
                         onChange={event => { setQuery(event.target.value) }} />
@@ -74,7 +74,7 @@ export default function PayRolls() {
                     <button className="btn btn-info" style={{ width: 118, padding: 12 }}>Search</button>
                 </div>
             </form>
-            <table className="table left " id="myTable">
+            <table className="table pay_table " id="myTable">
 
                 <thead>
                     <tr>
@@ -103,7 +103,11 @@ export default function PayRolls() {
                                 <td>{item.CTC}</td>
                                 <td>{item.position}</td>
 
-                                <td><NavLink to={`/payrolls/salaryslip/generate/${user.id}`} ><button className="btn btn-info">Genertor Slip </button></NavLink></td>
+
+                                <td><NavLink to={`/payrolls/salaryslip/generate/${item.id}`} ><button className="btn btn-info">Genertor Slip </button></NavLink></td>
+
+                              
+
 
                             </tr>)
                         })}

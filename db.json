@@ -19,8 +19,16 @@
       "appraisal_date": "08-09-2022",
       "position": "Developer",
       "id": 2,
+      "location": "Ludhiana",
       "CTC": "5LPA",
-      "documents": "10th,12th&B.tech"
+      "documents": "10th,12th&B.tech",
+      "mobile_No": "9646XXXXXX",
+      "bank_name": "ICICI",
+      "total_days": "30",
+      "bank_Accountno": "9646214XXXXXXXXX",
+      "hr": "HR Manager",
+      "earning": "10,000",
+      "signature": "Gurpreet Singh (Manager)"
     },
     {
       "name": "Sanjeev",
@@ -43,6 +51,36 @@
       "id": 4,
       "CTC": "3.8LPA",
       "documents": "10th,12th&B.tech"
+    },
+    {
+      "name": "Sanjeev Maurya   ",
+      "email": "sanjeev @gmail.com",
+      "status": "react js",
+      "joining_date": "06-03-2022",
+      "appraisal_date": "19-09-2022",
+      "position": "employee",
+      "id": 5,
+      "CTC": "4LPA",
+      "documents": "10th,12th&B.tech"
+    },
+    {
+      "name": "Anmol Sharma",
+      "email": "Anmol@gmail.com",
+      "status": "Angular",
+      "joining_date": "07-02-2022",
+      "appraisal_date": "10-09-2022",
+      "position": "Trainee",
+      "location": "Rajpura",
+      "id": 6,
+      "CTC": "4LPA",
+      "documents": "10th,12th&B.tech",
+      "hr": "HR Manager",
+      "mobile_No": "89747XXXXX",
+      "bank_name": "ICICI",
+      "employee_id": "3055",
+      "total_days": "30",
+      "bank_Accountno": "874502XXXXXXXXX",
+      "earning": "10,000"
     }
   ]
 }
